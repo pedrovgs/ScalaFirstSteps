@@ -35,6 +35,29 @@ object SimplePatternMachine {
     }
 
     println(res2)
+
+    println(bigger(-1))
+    println(bigger(3))
+    println(bigger(4.5))
+    println(bigger(-6.8))
+    println(bigger("Car"))
+  }
+
+  /*
+   * Pattern machine can also be used with more complex cases. In this function if the parameter of type "Any" applies
+   * with int or double types this is going to increment or decrement the value. If the type is an String this function
+   * is going to add an s.
+   *
+   * Each case is evaluated in order and if the patter match, the right hand expression is applied.
+   */
+  def bigger(o: Any): Any = {
+    o match {
+      case i: Int if i < 0 => i - 1
+      case i: Int => i + 1
+      case d: Double if d < 0.0 => d - 0.1
+      case d: Double => d + 0.1
+      case text: String => text + "s"
+    }
   }
 
 }
