@@ -11,6 +11,7 @@ This repository contains some samples written in Scala to evaluate some of the m
 * Anonymous functions.
 * Classes.
 * Override methods.
+* Simple pattern machine.
 * Pattern machine.
 * Traits.
 * Traits with "with" sintax.
