@@ -18,6 +18,7 @@ This repository contains some samples written in Scala to evaluate some of the m
 * Types.
 * Partial applications.
 * Apply methods.
+* Objects.
 
 <a href="http://docs.scala-lang.org/">
   <img alt="Scala documentation" src="http://upload.wikimedia.org/wikipedia/en/8/85/Scala_logo.png" />
