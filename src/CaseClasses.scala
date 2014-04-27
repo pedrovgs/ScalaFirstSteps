@@ -31,7 +31,7 @@ object CaseClasses {
 
   /*
    * There are other different approaches to implement the default case:
-   * 
+   *
    * case Calculator(_, _) => "Calculator of unknown type"
    * case _ => "Calculator of unknown type"
    * case c@Calculator(_, _) => "Calculator: %s of unknown type".format(c)
